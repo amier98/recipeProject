@@ -1,15 +1,10 @@
 package com.example.vehiclenumberadmin
 
 import android.content.Intent
-import android.nfc.Tag
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.vehiclenumberadmin.databinding.ActivityMainBinding
-import com.google.android.gms.auth.api.identity.BeginSignInRequest
-import com.google.android.gms.auth.api.identity.Identity
-import com.google.android.gms.auth.api.identity.SignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
@@ -19,16 +14,11 @@ import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.GoogleAuthProvider
-import com.google.firebase.auth.ktx.auth
-import com.google.firebase.database.DataSnapshot
-import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
-import com.google.firebase.database.ValueEventListener
-import com.google.firebase.ktx.Firebase
 
 
-class MainActivity : AppCompatActivity() {
+class SignInActivity : AppCompatActivity() {
     private val googleSignRequestCode = 23
     private lateinit var binding:ActivityMainBinding
     private lateinit var databaseReference: DatabaseReference
@@ -56,7 +46,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.googleSignIn.setOnClickListener {
             signIn()
-            val intent = Intent(this@MainActivity, UpdateActivity::class.java)
+            val intent = Intent(this@SignInActivity, HomeActivity::class.java)
             startActivity(intent)
         }
 

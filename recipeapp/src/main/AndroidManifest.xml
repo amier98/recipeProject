@@ -12,13 +12,13 @@
             android:name=".DeleteActivity"
             android:exported="false" />
         <activity
-            android:name=".UpdateActivity"
+            android:name=".HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".UploadActivity"
+            android:name=".CreateActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SignInActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

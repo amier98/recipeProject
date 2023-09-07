@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.vehiclenumberadmin.databinding.ActivityUploadBinding
 
-class UploadActivity : AppCompatActivity() {
+class CreateActivity : AppCompatActivity() {
 
 
     private lateinit var binding: ActivityUploadBinding
