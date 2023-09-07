@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "VehicleReg"
 include(":app")
-include(":vehiclenumberadmin")
+include(":recipeapp")
