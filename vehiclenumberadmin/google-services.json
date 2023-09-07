@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1038920314327",
+    "firebase_url": "https://crud-realtime-client-ce11b-default-rtdb.firebaseio.com",
+    "project_id": "crud-realtime-client-ce11b",
+    "storage_bucket": "crud-realtime-client-ce11b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038920314327:android:844f19d86dabe0fdeaaf92",
+        "android_client_info": {
+          "package_name": "com.example.vehiclenumberadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038920314327-jco6d6qpq514s214cqojsgtln43gi46j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjdLOm0dzW7VCeCUBRDNSF3ugcbD07PYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038920314327-isk3alel4itutba0vdsr9kdspv3rg4qo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038920314327:android:72f8623df55a6e4beaaf92",
+        "android_client_info": {
+          "package_name": "com.example.vehiclereg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038920314327-jco6d6qpq514s214cqojsgtln43gi46j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjdLOm0dzW7VCeCUBRDNSF3ugcbD07PYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038920314327-isk3alel4itutba0vdsr9kdspv3rg4qo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
